@@ -65,6 +65,11 @@ body {
   color: #444;
 }
 
+*:focus {
+  outline: 2px dotted #de2e54;
+  outline-offset: 2px;
+}
+
 /* CONTAINER */
 
 .container {
@@ -73,4 +78,102 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   margin: 0 auto;
+}
+
+/* SITE-HEADER */
+header {
+  padding: 24px 0;
+}
+
+.site-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #222;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.site-logo:hover {
+  color: #de2e54;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.site-logo img {
+  margin-right: 16px;
+  width: 50px;
+  height: 50px;
+}
+
+
+/* SITENAV */
+
+.sitenav {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sitenav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.sitenav-link {
+  display: block;
+  color: #222;
+  text-decoration: none;
+}
+
+.sitenav-link:hover {
+  color: #de2e54;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+
+
+/* MAIN-LINK */
+
+.main-link {
+  display: inline-block;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  padding: 10px 22px;
+  text-decoration: none;
+  background-color: #de2e54;
+  color: #fff;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main-link:hover {
+  background-color: #fff;
+  color: #de2e54;
+}
+
+
+.main-link:active {
+  background-color: #de2e54;
+  color: #fff;
+  opacity: 0.6;
 }

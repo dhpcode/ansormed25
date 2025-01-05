@@ -108,10 +108,19 @@ header {
   opacity: 0.6;
 }
 
+.site-logo-site-footer {
+  color: #fff;
+}
+
+.site-logo-site-footer:active {
+  color: #fff;
+}
+
 .site-logo img {
   margin-right: 16px;
   width: 50px;
   height: 50px;
+  border-radius: 50%;
 }
 
 
@@ -150,6 +159,20 @@ header {
 }
 
 
+.sitenav-site-footer .sitenav-link {
+  color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover {
+  color: #de2e54;
+}
+
+.sitenav-site-footer .sitenav-link:active {
+  color: #fff;
+  opacity: 0.6;
+}
+
+
 
 /* MAIN-LINK */
 
@@ -176,4 +199,20 @@ header {
   background-color: #de2e54;
   color: #fff;
   opacity: 0.6;
+}
+
+
+
+/* SITE-FOOTER */
+
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 24px 0;
+}
+
+.site-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

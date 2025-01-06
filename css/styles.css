@@ -65,10 +65,10 @@ body {
   color: #444;
 }
 
-*:focus {
+/* *:focus {
   outline: 2px dotted #de2e54;
   outline-offset: 2px;
-}
+} */
 
 /* CONTAINER */
 
@@ -201,6 +201,54 @@ header {
   opacity: 0.6;
 }
 
+.main-link-solid:hover {
+  background-color: rgba(222, 46, 84, 0.8);
+  border-color: transparent;
+  color: #fff;
+}
+
+.main-link-solid:active {
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
+
+/* MAIN-CONTENT */
+.main {}
+
+/* Hero section */
+.hero {
+  background-color: #0eb4c1;
+  color: #fff;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+  padding: 120px 0;
+  width: 500px;
+}
+
+.hero-heading {
+  font-family: "Open Sans Condensed", "Open Sans", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  width: 440px;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+.main-link {}
+
+.hero-img {
+  align-self: flex-end;
+}
 
 
 /* SITE-FOOTER */

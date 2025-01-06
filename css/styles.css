@@ -220,6 +220,7 @@ header {
   background-color: #0eb4c1;
   color: #fff;
 }
+
 .hero-container {
   display: flex;
   justify-content: space-between;
@@ -244,11 +245,75 @@ header {
   margin-bottom: 36px;
 }
 
-.main-link {}
-
 .hero-img {
   align-self: flex-end;
 }
+
+/* INDEX SERVICES */
+.index-services {
+  padding: 120px 0;
+}
+
+.index-services-heading {
+  margin-top: 0;
+  margin-bottom: 56px;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #000;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.index-services-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
+  width: 864px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+
+.index-services-item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.index-service {
+  display: flex;
+  align-items: center;
+
+}
+
+.index-service-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 24px;
+  margin-right: 64px;
+  object-fit: cover;
+  box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+}
+
+.index-service-content {
+  width: 600px;
+}
+
+.index-service-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.index-service-description {
+  margin: 0;
+
+}
+
+.index-services-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.main-link {}
 
 
 /* SITE-FOOTER */
